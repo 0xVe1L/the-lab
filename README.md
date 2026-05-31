@@ -48,7 +48,7 @@ Install a server, populate your world with AI players, summon a full party of bo
 <p align="center"><img src="assets/player-bots.png" width="560" alt="Browsing the player-bot roster"></p>
 
 - **Hundreds of AI players** live in your world — they quest, run dungeons, raid, trade, and chat like real people, so a solo server never feels empty.
-- **My Party** — build a 5-man group of bots. For each slot you pick a **role → class → spec → talent build → level**, and The Lab spawns the bot, gears it, applies its talents, and teleports it right to you.
+- **My Party** — build a 5-man group of bots. For each slot you pick a **role → class → spec → talent build → level**, and The Lab spawns the bot, gears it, applies its talents, and teleports it right to you. *Support for larger raid groups is on the way.*
 
 <p align="center">
   <img src="assets/my-party.png" width="276" alt="My Party — five-man party setup">
@@ -81,11 +81,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 - A configurable bot keeps your auction house **stocked and active** so the in-game economy feels alive — all tuned from a friendly UI, with no SQL or config-file editing.
 
 ### ⚙ Settings & power tools
-<p align="center">
-  <img src="assets/settings-app.png" width="276" alt="App settings — updates, audio, cursor">
-  <img src="assets/settings-modules.png" width="276" alt="Module management and uninstall">
-</p>
-
 - **Data enrichment** — pulls icons, tooltips, and talent data from *your own* WoW client so everything shows real names and art.
 - **Character backup & restore** — portable backup files. Back up before a rebuild, or move characters between installs, without losing progress.
 - **Steam integration** — adds The Lab (and your WoW client) to Steam as non-Steam games, complete with artwork, ready for Gaming Mode.
@@ -106,9 +101,84 @@ Open your world so friends can hop in with their own characters and keep their p
 - Roughly **15 GB** of free space for the server.
 
 ## Install
-1. **[Download `TheLab.AppImage`](https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage)** from the latest release.
-2. Make it executable and run it — or let the app add itself to Steam so you can launch it from Gaming Mode.
-3. Click **Install server** and follow along on screen. The first Playerbots install compiles from source, so grab a coffee — after that, starting up takes seconds.
+
+The whole setup is done **once** in Desktop Mode, then you play from Gaming Mode. Follow these steps in order — nothing here is left to guesswork.
+
+1. **Switch to Desktop Mode.** On the Steam Deck, press **STEAM → Power → Switch to Desktop**. You'll land on a normal Linux desktop.
+
+2. **Set a password.** Open **Konsole** (the terminal app, in the taskbar or app menu), type `passwd`, and press Enter. Choose a password and confirm it. *Steam Decks ship without one, and The Lab needs it to install the server with the right permissions.* You only do this once.
+
+3. **Get your WoW 3.3.5a client.** Obtain a **Wrath of the Lich King (3.3.5a)** client of your choice and keep it somewhere you can find it. *The Lab never provides game files — you supply your own legally-obtained client.*
+
+4. **Download The Lab.** Grab **[`TheLab.AppImage`](https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage)** from the latest release and move it somewhere permanent — a folder like **`Home → MyGames`** works great. (Don't run it from the Downloads folder.)
+
+5. **Make it runnable, then open it.** Right-click `TheLab.AppImage` → **Properties** → the **Permissions** tab → check **"Is executable"** → **OK**. Now **double-click it** to launch. *(One-time step — an AppImage won't open until it's marked executable.)*
+
+   > **Advanced users:** if you've enabled **Developer Mode** in KDE Plasma (or already allow executing programs by default), AppImages may just run on double-click and you can skip the checkbox. When in doubt, do it anyway — it never hurts.
+
+6. **Install your server.** The app walks you through it — click **Install server** and follow along on screen. The first Playerbots install compiles from source, so grab a coffee; after that, starting up takes seconds.
+
+7. **Add to Steam in one click.** Open **Settings** and use **Add to Steam** — it adds both **The Lab** and your **WoW client** to Steam as non-Steam games, with artwork.
+
+8. **Back to the couch.** Return to **Gaming Mode** (the **Return to Gaming Mode** shortcut on the desktop). The Lab and your WoW client are now in your Steam library — start, manage, and play your server entirely from Gaming Mode. 🎮
+
+## Troubleshooting & FAQ
+
+<details>
+<summary><b>I double-click <code>TheLab.AppImage</code> and nothing happens.</b></summary>
+
+It needs to be marked as runnable first. Right-click it → **Properties** → **Permissions** tab → check **"Is executable"** → **OK**, then double-click again. This is a one-time step the very first time you open it.
+
+*Already opened on the first try? You likely have Developer Mode enabled (or your file manager allows running programs by default), so you can ignore this — nothing's wrong.*
+</details>
+
+<details>
+<summary><b>It's asking for a password during install.</b></summary>
+
+That's the password you set with `passwd` in Konsole (Step 2). Type it in to let the installer set up Docker and the server. If you never set one, go back to Desktop Mode, open Konsole, run `passwd`, and try again.
+</details>
+
+<details>
+<summary><b>The first install is taking forever.</b></summary>
+
+That's normal. The Playerbots server **compiles from source** the first time, which can take an hour or more on a Steam Deck. Leave it running. After that first build, starting the server takes only seconds.
+</details>
+
+<details>
+<summary><b>Do I need an internet connection?</b></summary>
+
+Yes for the **install** (it downloads and builds the server). Once it's set up, the server runs **locally on your machine** — you and your bots are playing offline.
+</details>
+
+<details>
+<summary><b>Where do I get the WoW client? Is it included?</b></summary>
+
+It's **not** included — The Lab never distributes game files. You bring your own legally-obtained **WoW 3.3.5a (Wrath of the Lich King)** client and point The Lab at it.
+</details>
+
+<details>
+<summary><b>My server stopped working after a SteamOS update.</b></summary>
+
+SteamOS updates can break Docker. The Lab detects this and offers a **one-click fix** — follow the prompt and you'll be back up without losing anything.
+</details>
+
+<details>
+<summary><b>Will updating The Lab wipe my characters?</b></summary>
+
+No. Updates install in place and your server, characters, and settings are left untouched. You can also make portable **character backups** any time from **Settings**.
+</details>
+
+<details>
+<summary><b>How do I stop the server?</b></summary>
+
+Use the **Stop server** button in the app — or just turn on **Auto-shutdown**, and the server stops on its own when you close WoW.
+</details>
+
+<details>
+<summary><b>Can I play with friends?</b></summary>
+
+Not yet — **Play Together** is coming soon. Today The Lab is built for your own private, bot-filled world.
+</details>
 
 ## About
 The Lab is a labor of love for **dads who love games, not developers** — making it dead-simple to relive WoW in your own private world that's full of life. It orchestrates only **open-source emulators** (AzerothCore, mod-playerbots, and friends) and never includes copyrighted game clients or assets.
