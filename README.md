@@ -183,4 +183,6 @@ Not yet — **Play Together** is coming soon. Today The Lab is built for your ow
 ## About
 The Lab is a labor of love for **dads who love games, not developers** — making it dead-simple to relive WoW in your own private world that's full of life. It orchestrates only **open-source emulators** (AzerothCore, mod-playerbots, and friends) and never includes copyrighted game clients or assets.
 
-<p align="center"><i>Presented by <b>0xVe1L</b> and <b>Dad's MMO Lab</b>.</i></p>
+<p align="center"><i>Presented by <b>0xVe1L</b> and <a href="https://github.com/DadsMmoLab/dads-mmo-lab"><b>Dad's MMO Lab</b></a>.</i></p>
+
+<p align="center"><i>Special thanks to the members of the Dad's MMO Lab Discord for testing and support &lt;3</i></p>
