@@ -46,7 +46,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 - **Auto-shutdown**: the server quits on its own when you close WoW, so it never drains the Deck in the background.
 - Built for **Steam Deck Gaming Mode** — add it to Steam and launch it from the couch. (Also runs on Linux desktops; Windows support is on the roadmap.)
 <br>
-<br>
 
 ---
 
@@ -58,7 +57,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 ### 🧙 Dashboard & your character
 - A live **character paper-doll** showing your equipped gear, level, and class.
 - **Gear** and **Talents** views in one place, with quick actions.
-<br>
 <br>
 
 ---
@@ -72,7 +70,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 
 - **Hundreds of AI players** live in your world — they quest, run dungeons, raid, trade, and chat like real people, so a solo server never feels empty.
 - **My Party** — build a 5-man group of bots. For each slot you pick a **role → class → spec → talent build → level**, and The Lab spawns the bot, gears it, applies its talents, and teleports it right to you. *Support for larger raid groups is on the way.*
-<br>
 <br>
 
 ---
@@ -96,7 +93,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 
 - **Global bot settings** — control how many bots populate the world, their level range, what they do (questing, dungeons, battlegrounds), and performance tuning so it stays smooth on a Deck.
 <br>
-<br>
 
 ---
 
@@ -110,7 +106,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 - Search the **entire item database** with quality and class filters, real icons, and full tooltips.
 - **Send any item** straight to your character through in-game mail — whether you're online or offline.
 <br>
-<br>
 
 ---
 
@@ -122,7 +117,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 
 
 - Beam your character to any of **thousands of named locations**, or to exact map coordinates. Save your favorites for one-tap travel.
-<br>
 <br>
 
 ---
@@ -136,7 +130,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 
 - Powered by **[AH Bot Plus](https://github.com/AnchyDev/AHBotPlus)**, a bot that keeps your auction house **stocked and active** so the in-game economy feels alive — all tuned from a friendly UI, with no SQL or config-file editing.
 - Control the **seller bot** (how many listings per cycle, listing duration) and the **buyer bot** (items considered per cycle, max buyout), set how often each cycle runs, and tune per-faction house sizes — with **Basic** and **Advanced** views. Changes apply on the next bot cycle, no server restart needed.
-<br>
 <br>
 
 ---
@@ -153,7 +146,6 @@ Install a server, populate your world with AI players, summon a full party of bo
 
 <p align="center"><img src="assets/module-config.png" width="560" alt="Editing a module's raw config inside the app"></p>
 <br>
-<br>
 
 ---
 
@@ -166,12 +158,10 @@ Install a server, populate your world with AI players, summon a full party of bo
 
 - Already set up a server the manual way? The Lab **detects it and migrates it in** with a quick upgrade that adds remote control and the bot bridge — so the app can manage it while **your characters and data are left untouched.**
 <br>
-<br>
 
 ---
 
 
-<br>
 
 ### ⚙ Settings & power tools
 - **Data enrichment** — pulls icons, tooltips, and talent data from *your own* WoW client so everything shows real names and art.
@@ -192,7 +182,6 @@ Open your world so friends can hop in with their own characters and keep their p
 - A **Steam Deck** (SteamOS) is the primary target. Also runs on Linux desktops; **Windows support is planned**.
 - Your own **WoW 3.3.5a (Wrath of the Lich King)** game client. The Lab never provides game files.
 - Roughly **15 GB** of free space for the server.
-<br>
 <br>
 
 ## Install
