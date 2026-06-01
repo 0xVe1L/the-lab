@@ -19,8 +19,7 @@
   &nbsp;·&nbsp;
   <a href="#install"><b>Installation instructions</b></a>
 </p>
-
----
+<br>
 
 ## What is this?
 
@@ -32,9 +31,14 @@ Install a server, populate your world with AI players, summon a full party of bo
   
 <br>
 
+
+
+<br>
+
 ___
- 
 <h1 align="center">🧪 &nbsp;&nbsp;  Features  &nbsp;&nbsp;  🧪</h1>
+
+<br>
 
 <br>
 <p align="center"><img src="assets/server-start.png" width="560" alt="Starting the server with a live, readable console"></p>
@@ -183,7 +187,7 @@ Open your world so friends can hop in with their own characters and keep their p
 ---
 <br>
 
-### Requirements
+## Requirements
 - A **Steam Deck** (SteamOS) is the primary target. Also runs on Linux desktops; **Windows support is planned**.
 - Your own **WoW 3.3.5a (Wrath of the Lich King)** game client. The Lab never provides game files.
 - Roughly **15 GB** of free space for the server.
@@ -211,6 +215,8 @@ The whole setup is done **once** in Desktop Mode, then you play from Gaming Mode
 7. **Add to Steam in one click.** Open **Settings** and use **Add to Steam** — it adds both **The Lab** and your **WoW client** to Steam as non-Steam games, with artwork.
 
 8. **Back to the couch.** Return to **Gaming Mode** (the **Return to Gaming Mode** shortcut on the desktop). The Lab and your WoW client are now in your Steam library — start, manage, and play your server entirely from Gaming Mode. 🎮
+
+<br>
 
 ## Troubleshooting & FAQ
 
@@ -269,6 +275,8 @@ Use the **Stop server** button in the app — or just turn on **Auto-shutdown**,
 
 Not yet — **Play Together** is coming soon. Today The Lab is built for your own private, bot-filled world.
 </details>
+
+<br>
 
 ## About
 The Lab is a labor of love for **dads who love games, not developers** — making it dead-simple to relive WoW in your own private world that's full of life. It orchestrates only **open-source emulators** (AzerothCore, mod-playerbots, and friends) and never includes copyrighted game clients or assets.
