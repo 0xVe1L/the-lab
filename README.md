@@ -28,10 +28,11 @@ Setting up a private WoW server is normally a weekend of terminal commands. **Th
 Install a server, populate your world with AI players, summon a full party of bots, mail yourself any item, teleport anywhere, and fine-tune how it all works — all from Steam Deck Gaming Mode.
 
 > **You bring your own game client.** The Lab only orchestrates open-source server emulators. It never includes, distributes, or links to Blizzard game files — you point it at your own legally-obtained **WoW 3.3.5a (Wrath of the Lich King)** client. (These are easily located).
+
 <br>
 <br>
 
----
+
 
 <h1 align="center">🧪 &nbsp;&nbsp;  Features  &nbsp;&nbsp;  🧪</h1>
 
