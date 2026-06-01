@@ -11,9 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>⬇&nbsp; Download The Lab</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/0xVe1L/the-lab/releases/latest">Latest release</a>
+  <b>🚧 First public release coming soon.</b> Watch or ⭐ the repo to be notified when downloads go live.
 </p>
 
 ---
@@ -78,16 +76,30 @@ Install a server, populate your world with AI players, summon a full party of bo
 - Beam your character to any of **thousands of named locations**, or to exact map coordinates. Save your favorites for one-tap travel.
 
 ### 🏷 Auction House bot
-- A configurable bot keeps your auction house **stocked and active** so the in-game economy feels alive — all tuned from a friendly UI, with no SQL or config-file editing.
+<p align="center"><img src="assets/auction-house.png" width="560" alt="Auction House — tuning the AH Bot Plus seller and buyer bots"></p>
+
+- Powered by **[AH Bot Plus](https://github.com/AnchyDev/AHBotPlus)**, a bot that keeps your auction house **stocked and active** so the in-game economy feels alive — all tuned from a friendly UI, with no SQL or config-file editing.
+- Control the **seller bot** (how many listings per cycle, listing duration) and the **buyer bot** (items considered per cycle, max buyout), set how often each cycle runs, and tune per-faction house sizes — with **Basic** and **Advanced** views. Changes apply on the next bot cycle, no server restart needed.
+
+### 🧩 Modules & their settings
+<p align="center"><img src="assets/settings-modules.png" width="560" alt="Installed modules — toggle optional AzerothCore modules on or off"></p>
+
+- **Pick your features.** Choose which optional AzerothCore modules are compiled into your server — Auction House Bot, Solocraft, Auto Balance, Transmogrification, Individual Progression, AoE Loot, and more. Changing the set rebuilds the worldserver (a few minutes); **your characters and data are kept.**
+- **Tune each module.** Edit a module's raw config right inside the app — changes are staged until you press **Apply**, then take effect on the next restart. No digging through `.conf` files on disk.
+
+<p align="center"><img src="assets/module-config.png" width="560" alt="Editing a module's raw config inside the app"></p>
+
+### 🔌 Migrate your existing Dad's MMO Lab server
+<p align="center"><img src="assets/migrate-server.png" width="560" alt="Connect an existing server set up outside The Lab"></p>
+
+- Already set up a server the manual way? The Lab **detects it and migrates it in** with a quick upgrade that adds remote control and the bot bridge — so the app can manage it while **your characters and data are left untouched.**
 
 ### ⚙ Settings & power tools
 - **Data enrichment** — pulls icons, tooltips, and talent data from *your own* WoW client so everything shows real names and art.
 - **Character backup & restore** — portable backup files. Back up before a rebuild, or move characters between installs, without losing progress.
 - **Steam integration** — adds The Lab (and your WoW client) to Steam as non-Steam games, complete with artwork, ready for Gaming Mode.
 - **Controller support**, **Warcraft cursor themes**, and audio options.
-- **Module management** — enable or disable AzerothCore modules and edit their raw configs, then rebuild — all from inside the app.
 - **World settings** — adjust XP, gold, drop rates, and other server knobs.
-- **Bring an existing server under management** — already set one up the manual way? The Lab detects it and migrates it in, **keeping all your characters and data**.
 - **In-app updates** — new versions install in place; your server, characters, and settings are left untouched.
 
 ### 🌐 Play Together — *coming soon*
@@ -110,7 +122,7 @@ The whole setup is done **once** in Desktop Mode, then you play from Gaming Mode
 
 3. **Get your WoW 3.3.5a client.** Obtain a **Wrath of the Lich King (3.3.5a)** client of your choice and keep it somewhere you can find it. *The Lab never provides game files — you supply your own legally-obtained client.*
 
-4. **Download The Lab.** Grab **[`TheLab.AppImage`](https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage)** from the latest release and move it somewhere permanent — a folder like **`Home → MyGames`** works great. (Don't run it from the Downloads folder.)
+4. **Download The Lab.** Once the first release is out, grab **`TheLab.AppImage`** from the releases page and move it somewhere permanent — a folder like **`Home → MyGames`** works great. (Don't run it from the Downloads folder.) *(Downloads aren't available yet — the first public release is coming soon.)*
 
 5. **Make it runnable, then open it.** Right-click `TheLab.AppImage` → **Properties** → the **Permissions** tab → check **"Is executable"** → **OK**. Now **double-click it** to launch. *(One-time step — an AppImage won't open until it's marked executable.)*
 
