@@ -28,17 +28,12 @@ Setting up a private WoW server is normally a weekend of terminal commands. **Th
 Install a server, populate your world with AI players, summon a full party of bots, mail yourself any item, teleport anywhere, and fine-tune how it all works — all from Steam Deck Gaming Mode.
 
 > **You bring your own game client.** The Lab only orchestrates open-source server emulators. It never includes, distributes, or links to Blizzard game files — you point it at your own legally-obtained **WoW 3.3.5a (Wrath of the Lich King)** client. (These are easily located).
-  
+<br>
 <br>
 
+---
 
-
-<br>
-
-___
 <h1 align="center">🧪 &nbsp;&nbsp;  Features  &nbsp;&nbsp;  🧪</h1>
-
-<br>
 
 <br>
 <p align="center"><img src="assets/server-start.png" width="560" alt="Starting the server with a live, readable console"></p>
@@ -52,7 +47,7 @@ ___
 <br>
 <br>
 
-___
+---
 
 
 <br>
@@ -65,7 +60,7 @@ ___
 <br>
 <br>
 
-___
+---
 
 
 <br>
@@ -79,7 +74,7 @@ ___
 <br>
 <br>
 
-___
+---
 
 
 <br>
@@ -102,7 +97,7 @@ ___
 <br>
 <br>
 
-___
+---
 
 
 <br>
@@ -116,7 +111,7 @@ ___
 <br>
 <br>
 
-___
+---
 
 
 <br>
@@ -129,7 +124,7 @@ ___
 <br>
 <br>
 
-___
+---
 
 
 <br>
@@ -143,7 +138,7 @@ ___
 <br>
 <br>
 
-___
+---
 
 
 <br>
@@ -157,8 +152,9 @@ ___
 
 <p align="center"><img src="assets/module-config.png" width="560" alt="Editing a module's raw config inside the app"></p>
 <br>
+<br>
 
-___
+---
 
 
 <br>
@@ -168,7 +164,13 @@ ___
 
 
 - Already set up a server the manual way? The Lab **detects it and migrates it in** with a quick upgrade that adds remote control and the bot bridge — so the app can manage it while **your characters and data are left untouched.**
-___
+<br>
+<br>
+
+---
+
+
+<br>
 
 ### ⚙ Settings & power tools
 - **Data enrichment** — pulls icons, tooltips, and talent data from *your own* WoW client so everything shows real names and art.
@@ -177,14 +179,12 @@ ___
 - **Controller support**, **Warcraft cursor themes**, and audio options.
 - **World settings** — adjust XP, gold, drop rates, and other server knobs.
 - **In-app updates** — new versions install in place; your server, characters, and settings are left untouched.
-
-<br><br>
-___
+<br>
+<br>
 
 # 🌐 Play Together — *coming soon*
 Open your world so friends can hop in with their own characters and keep their progress. A revolutionary new way to experience the world's *favorite* classic MMO experience.
-
----
+<br>
 <br>
 
 ## Requirements
