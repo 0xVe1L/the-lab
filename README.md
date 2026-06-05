@@ -11,11 +11,13 @@
 </p>
 
 <p align="center">
-  <b>First public release coming soon.</b> <br>Watch or ⭐ the repo to be notified when downloads go live.
+  <b>🎉 v0.0.1 is here — our first public release!</b> <br><a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>Download TheLab.AppImage</b></a> · Watch or ⭐ the repo to be notified about updates.
 </p>
 
 <p align="center">
-  <b>Latest release</b> (coming soon)
+  <a href="https://github.com/0xVe1L/the-lab/releases/tag/v0.0.1"><b>Latest release: v0.0.1</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>Download</b></a>
   &nbsp;·&nbsp;
   <a href="#install"><b>Installation instructions</b></a>
 </p>
@@ -194,7 +196,7 @@ The whole setup is done **once** in Desktop Mode, then you play from Gaming Mode
 
 3. **Get your WoW 3.3.5a client.** Obtain a **Wrath of the Lich King (3.3.5a)** client of your choice and keep it somewhere you can find it. *The Lab never provides game files — you supply your own legally-obtained client.*
 
-4. **Download The Lab.** Once the first release is out, grab **`TheLab.AppImage`** from the releases page and move it somewhere permanent — a folder like **`Home → MyGames`** works great. (Don't run it from the Downloads folder.) *(Downloads aren't available yet — the first public release is coming soon.)*
+4. **Download The Lab.** Grab **[`TheLab.AppImage`](https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage)** from the [latest release](https://github.com/0xVe1L/the-lab/releases/latest) and move it somewhere permanent — a folder like **`Home → MyGames`** works great. (Don't run it from the Downloads folder.)
 
 5. **Make it runnable, then open it.** Right-click `TheLab.AppImage` → **Properties** → the **Permissions** tab → check **"Is executable"** → **OK**. Now **double-click it** to launch. *(One-time step — an AppImage won't open until it's marked executable.)*
 
