@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <b>🎉 v0.0.1 is here — our first public release!</b> <br><a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>Download TheLab.AppImage</b></a> · Watch or ⭐ the repo to be notified about updates.
+  <b>🎉 THE LAB is here — our first public release!</b> <br><a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>Download TheLab.AppImage</b></a> · Watch or ⭐ the repo to be notified about updates.
 </p>
 
 <p align="center">
-  <a href="https://github.com/0xVe1L/the-lab/releases/tag/v0.0.1"><b>Latest release: v0.0.1</b></a>
+  <b>Latest release: v0.0.2 | 06.05.26 @ 9.22PM UTC</b>
   &nbsp;·&nbsp;
   <a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>Download</b></a>
   &nbsp;·&nbsp;
