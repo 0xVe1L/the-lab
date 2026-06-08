@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <b>Latest release: v0.0.3 | 06.06.26 @ 10.24PM UTC</b>
+  <b>Latest release: v0.0.4 | 06.08.26 @ 5.53PM UTC</b>
   &nbsp;·&nbsp;
   <a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>Download</b></a>
   &nbsp;·&nbsp;
