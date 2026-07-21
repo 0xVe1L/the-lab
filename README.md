@@ -1,8 +1,16 @@
+<h2 align="center">⚠️ Due to an unforeseen life event, support for The Lab and any future development plans have been halted indefinitely.<br> 
+  100% of all Patreon and Ko-Fi donations have been refunded. ⚠️</h2>
+
+  I apologize for any inconveniences or disappointment this may cause. Online (PLAY TOGETHER) features will no longer function dependably, but I will leave them up as long as I can.
+  For similar functionality please check the Dad's MMO Lab discord. 
+
+  Thank you.
+  
 <p align="center">
   <img src="assets/hero.png" width="560" alt="The Lab — presented by 0xVe1L and Dad's MMO Lab">
 </p>
 
-<h1 align="center">THE LAB: Your own World of Warcraft server — installed, managed, and played from the couch.</h3>
+<h1 align="center">THE LAB: Your own World of Warcraft server — installed, managed, and played from the couch.</h1>
 
 <p align="center">
   Run a private WoW 3.3.5a server on your Steam Deck, fill it with hundreds of AI players,
@@ -11,7 +19,7 @@
 </p>
 
 <p align="center">
-  <b>🎉 THE LAB is here — our first public release!</b> <br><a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>Download TheLab.AppImage</b></a> · Watch or ⭐ the repo to be notified about updates.
+  <b>🎉 THE LAB is here — </b> <br><a href="https://github.com/0xVe1L/the-lab/releases/latest/download/TheLab.AppImage"><b>Download TheLab.AppImage</b></a> · Watch or ⭐ the repo to be notified about updates.
 </p>
 
 <p align="center">
