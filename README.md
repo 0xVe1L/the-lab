@@ -150,7 +150,7 @@ Install a server, populate your world with AI players, summon a full party of bo
 
 ### 🧩 Modules & their settings
 
-- **Pick your features.** Choose which optional AzerothCore modules are compiled into your server — Auction House Bot, Solocraft, Auto Balance, Transmogrification, Individual Progression, AoE Loot, and more. Changing the set rebuilds the worldserver (a few minutes); **your characters and data are kept.**
+- **Pick your features.** Choose which optional AzerothCore modules are compiled into your server — Auction House Bot, Solocraft, Adventure Mode, Auto Balance, Transmogrification, Individual Progression, AoE Loot, and more. Changing the set rebuilds the worldserver (a few minutes); **your characters and data are kept.**
 
 - **Tune each module.** Edit a module's raw config right inside the app — changes are staged until you press **Apply**, then take effect on the next restart. No digging through `.conf` files on disk.
 
